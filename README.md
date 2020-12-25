@@ -17,13 +17,13 @@
 # Getting Started:
 **For Fetching Images:**
 Generate URLs like this : </br>
-https://github.com/animsh/PokemonSprites/blob/main/imagesHQ/10203.png
-https://github.com/animsh/PokemonSprites/blob/main/imagesHQ/10210.png
+https://raw.githubusercontent.com/animsh/PokemonSprites/main/imagesHQ/10203.png
+https://raw.githubusercontent.com/animsh/PokemonSprites/main/imagesHQ/10210.png
 
 Programmatically fetch base forms:
 ```
 int pokemonId = 10203;
-String pokemonImageUrl = "https://github.com/animsh/PokemonSprites/blob/main/imagesHQ/' + pokemonId + '.png';
+String pokemonImageUrl = "https://raw.githubusercontent.com/animsh/PokemonSprites/main/imagesHQ/' + pokemonId + '.png';
 
 ```
 #### Note: for now this repo just contains the assests/sprites of pokemons which are missing in Pokeapi. Assests of other pokemons will be added in future (You can use them from pokeapi directly).
